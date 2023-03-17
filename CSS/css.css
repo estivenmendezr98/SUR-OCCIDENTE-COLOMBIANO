@@ -16,6 +16,8 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+
+    
 }
 
 .titulo1 {
@@ -141,4 +143,15 @@
     text-align: left;
     font-size: 11pt;
     
+}
+
+/*HEADER Y FOOTER*/
+.hd3 {
+    background-color: red;
+    padding-top: 5px;
+    padding-bottom: 0.5%;
+    border: solid 1px black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
