@@ -1,0 +1,144 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+/*HEADER Y FOOTER*/
+.hd1 {
+    background-color: red;
+    padding-top: 5px;
+    padding-bottom: 0.5%;
+    border: solid 1px black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.titulo1 {
+    color: white;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.foot1 {
+    border: solid 1px black;
+    background-color: red;
+    padding: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+
+.autores {
+    color: white;
+    font-size: 30pt;
+}
+
+/*FIN*/
+
+/*CONTENIDO*/
+.box1 {
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 6%;
+    margin-left: 120px;
+    margin-right: 120px;
+    align-content: center;
+    text-align: center;
+    height: 21rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*FIN*/
+
+/*page02*/
+.img2 {
+    width: 100%;
+}
+
+/*IMAGEN Y BTN*/
+
+.imagen1 {
+    max-width: 100%;
+    width: 48%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+@media screen and (max-width: 1080px) {
+    .imagen1 {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.btn1 {
+    background-color: red;
+    color: white;
+    border: solid 1px black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 37px;
+    padding-right: 37px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18pt;
+}
+
+/*FIN*/
+
+.box2 {
+    float: left;
+    height: 100%;
+    width: 75%;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+
+.box3 {
+    float: left;
+    height: 100%;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 35px;
+    padding-right: 35px;
+
+}
+
+.box3 {
+    float: left;
+    height: 100%;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 35px;
+    padding-right: 35px;
+
+}
+
+#titulocontenido {
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18pt;
+    padding-top: 50px;
+}
+
+#textocontenido {
+    text-align: left;
+    font-size: 11pt;
+    
+}
